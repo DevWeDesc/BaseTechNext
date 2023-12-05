@@ -6,7 +6,7 @@ export type InputType = {
   type: string;
   placeholder: string;
   id: string;
-  value: string;
-  setValue: (ev: any) => any;
+  value?: string;
+  setValue?: (ev: any) => any;
   Icon?: ReactElement;
 };
